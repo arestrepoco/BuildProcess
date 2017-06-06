@@ -1,0 +1,12 @@
+{
+  "name": "BuildProcess",
+  "version": "1.0.0",
+  "description": "Simple build process to watch JS + CSS",
+  "main": "index.js",
+  "repository": "https://github.com/austinpickett/BuildProcess",
+  "author": "Austin Pickett <pickett.austin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"start": "node index.js"
+  }
+}
