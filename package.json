@@ -7,6 +7,11 @@
   "author": "Austin Pickett <pickett.austin@gmail.com>",
   "license": "MIT",
   "scripts": {
-  	"start": "node index.js"
+    "start": "node index.js",
+    "css": "node-sass src/main.sass dest/main.css",
+    "watch:css": "yarn css -- -w" 
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3"
   }
 }
